@@ -7,14 +7,13 @@
 
 		<link href="style.css" rel="stylesheet" />
 		<script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
-		<link rel="shortcut icon" href="img/logo.svg" />
-		<link rel="manifest" href="manifest.json" />
+		<link rel="shortcut icon" href="logo.svg" />
 	</head>
 	<body>
 		<header>
 			<div class="navbar">
 				<img
-					src="img/logo.svg"
+					src="logo.svg"
 					width="40px"
 					style="padding: 10px 40px 10px 10px"
 				/>
@@ -223,11 +222,5 @@
 			</h5>
 		</footer>
 
-		<script>
-			if ("serviceWorker" in navigator) {
-				navigator.serviceWorker.register("/service-worker.js");
-				console.log("service worker file registered 👍!");
-			}
-		</script>
 	</body>
 </html>
